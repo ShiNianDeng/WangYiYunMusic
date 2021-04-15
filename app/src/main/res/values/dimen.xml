@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="playNumImgSize">18dp</dimen>
+    <dimen name="hotImgSize">56dp</dimen>
+    <dimen name="hotListPlay">36dp</dimen>
+    <dimen name="playMusicIconSize">210dp</dimen>
+    <dimen name="discTopoSize">90dp</dimen>
+
+    <!-- App start-->
+    <dimen name="marginSize">16dp</dimen>
+    <dimen name="albumMarginSize">4dp</dimen>
+    <dimen name="titleSize">18sp</dimen>
+    <dimen name="itemHeight">44dp</dimen>
+    <!-- App end-->
+
+    <!-- navBar start-->
+    <dimen name="navBarHeight">65dp</dimen>
+    <!-- nav_bar end-->
+
+    <!-- inputView start-->
+    <dimen name="inputViewHeight">44dp</dimen>
+    <!-- input_view end-->
+
+    <!-- btnRadius-->
+    <dimen name="btnRadius">5dp</dimen>
+
+    <dimen name="infoSize">14sp</dimen>
+    <dimen name="btnCommitHeight">50dp</dimen>
+
+    <dimen name="tabLableHeight">50dp</dimen>
+</resources>

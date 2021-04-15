@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/linear_interpolator">
+    <!--Interpolator负责控制动画变化的速率，使得基本的动画效果能够以匀速、加速、减速、抛物线速率等各种速率变化。 -->
+
+
+    <rotate
+        android:fromDegrees="0"
+        android:toDegrees="360"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:duration="@integer/discTurn"
+        android:repeatCount="infinite"/>
+    <!--android:repeatCount=infinite 表示让这个动画无限重复转动，其中的infinite可以改成重复的次数，比如：1，2，3，。。。-->
+</set>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--分割线的样式-->
+    <style name="line">
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/lineColor</item>
+        <item name="android:layout_margin">@dimen/marginSize</item>
+    </style>
+
+    <!--提交按钮的样式-->
+    <style name="btnCommit">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/btnCommitHeight</item>
+        <item name="android:background">@drawable/btn_commit_selector</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/titleSize</item>
+        <item name="android:layout_marginLeft">@dimen/marginSize</item>
+        <item name="android:layout_marginRight">@dimen/marginSize</item>
+    </style>
+
+    <!--自定义窗口动画样式-->
+    <style name="activityChangeAnim" parent="@android:style/Animation.Activity">
+        <!--打开时原窗口退出动画-->
+        <item name="android:activityOpenEnterAnimation">@anim/open_enter</item>
+        <!--打开时新窗口进入动画-->
+        <item name="android:activityOpenExitAnimation">@anim/open_exit</item>
+        <!--关闭时原窗口退出动画-->
+        <item name="android:activityCloseEnterAnimation">@anim/close_enter</item>
+        <!--关闭时新窗口进入动画-->
+        <item name="android:activityCloseExitAnimation">@anim/close_exit</item>
+    </style>
+
+
+</resources>

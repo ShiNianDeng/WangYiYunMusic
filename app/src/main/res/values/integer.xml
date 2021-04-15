@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="animationDuration">400</integer>
+    <integer name="discTurn">10000</integer>
+    <integer name="needleTurn">600</integer>
+</resources>

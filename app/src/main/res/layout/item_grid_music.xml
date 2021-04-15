@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <com.example.lxc.wangyiyunmusic.views.WEqualsHImageView
+        android:id="@+id/iv_ewh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:iv_icon="@mipmap/img1"
+        app:iv_number="40.00万" />
+
+    <TextView
+        android:id="@+id/tv_song_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="歌单名称"
+        android:textColor="@color/titleColor"
+        android:textSize="@dimen/titleSize"
+        android:textStyle="bold" />
+</LinearLayout>

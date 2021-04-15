@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--声明样式 开始-->
+    <declare-styleable name="inputView">
+        <!--输入框前面的小图标-->
+        <attr name="input_icon" format="reference"/>
+
+        <!--输入框的提示内容-->
+        <attr name="input_hint" format="string"/>
+
+        <!--输入框是否以密文显示-->
+        <attr name="input_is_password" format="boolean"/>
+    </declare-styleable>
+    <!--声明样式 结束-->
+
+    <!--tab_lable样式 开始-->
+    <declare-styleable name="tabLable">
+        <!--标签的标题-->
+        <attr name="tab_title" format="string"/>
+
+    </declare-styleable>
+    <!--tab_lable样式 结束-->
+
+    <!--WEqualsHImageView开始-->
+    <declare-styleable name="wEqualsHImageView">
+        <!--WEqualsHImageView图片-->
+        <attr name="iv_icon" format="reference"/>
+        <!--WEqualsHImageView数量-->
+        <attr name="iv_number" format="string"/>
+    </declare-styleable>
+    <!--WEqualsHImageView结束-->
+</resources>

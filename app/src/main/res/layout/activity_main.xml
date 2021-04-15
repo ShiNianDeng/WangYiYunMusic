@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <include layout="@layout/nav_bar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/marginSize">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!--推荐歌单 开始-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.example.lxc.wangyiyunmusic.views.TabLable
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/tabLableHeight"
+                    app:tab_title="推荐歌单" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv_recommend"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+            <!--推荐歌单 结束-->
+
+            <!--热门音乐 开始-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.example.lxc.wangyiyunmusic.views.TabLable
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/tabLableHeight"
+                    app:tab_title="最热音乐" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv_hot"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+            <!--热门音乐 结束-->
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
