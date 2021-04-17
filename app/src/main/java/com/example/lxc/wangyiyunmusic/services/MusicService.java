@@ -109,7 +109,6 @@ public class MusicService extends Service {
                     .setContentTitle(mMusicModel.getName())
                     .setContentText(mMusicModel.getAuthor())
                     .setContentIntent(pendingIntent)
-
                     .build();
             NotificationManager manager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
             manager.createNotificationChannel(channel);

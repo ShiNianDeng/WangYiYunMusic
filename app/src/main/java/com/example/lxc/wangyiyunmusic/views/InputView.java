@@ -74,4 +74,9 @@ public class InputView extends FrameLayout {
         //添加布局
         addView(mView);
     }
+
+    @Override
+    protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
+        super.onMeasure(widthMeasureSpec, heightMeasureSpec);
+    }
 }
